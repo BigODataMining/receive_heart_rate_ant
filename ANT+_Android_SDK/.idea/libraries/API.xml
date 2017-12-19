@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="API">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/API/AntPluginLib_Javadoc_3-6-0.zip!/" />
+      <root url="jar://$PROJECT_DIR$/API/antpluginlib_3-6-0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/API/fit_16.00.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

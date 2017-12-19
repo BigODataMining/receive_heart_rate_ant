@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AndroidXML>
+<!--
+This software is subject to the license described in the License.txt file 
+included with this software distribution. You may not use this file except in compliance 
+with this license.
+
+Copyright (c) Dynastream Innovations Inc. 2013
+All rights reserved.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView android:layout_height="wrap_content"
+        android:id="@android:id/list"
+        android:layout_width="fill_parent" 
+        android:layout_weight="1.0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="性別 : "
+        android:textSize="18sp" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/ProfileMan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Man"
+            android:checked="true"
+            android:textSize="18sp" />
+        <RadioButton
+            android:id="@+id/ProfileWoman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Woman"
+            android:textSize="18sp"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="年齡 : "
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/ProfileAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="18sp"
+        android:hint="年齡"/>
+    <Button
+        android:id="@+id/SetProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="設定"/>
+    <TextView
+        android:id="@+id/ErrorMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/textView_PluginSamplerVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sampler Version:" />
+
+    <TextView
+        android:id="@+id/textView_PluginLibVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Built w/ PluginLib:" />
+
+    <TextView
+        android:id="@+id/textView_PluginsPkgVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Installed Plugin Version:" />
+
+</LinearLayout>
